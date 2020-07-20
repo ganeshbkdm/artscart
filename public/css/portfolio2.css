@@ -1,0 +1,150 @@
+.navigation_bar .nav-item a{
+    color:white;
+}
+.work{
+    background-color:gainsboro;
+}
+.dropdown-item a{
+    color:black;
+}
+.dropdown-menu{
+    border-radius: 5px;
+}
+.dropdown-menu a{
+    color:black;
+}
+.dropdown-menu :hover{
+    background-color: blue;
+}
+#artist_name{
+    margin-top: 20px;
+}
+.work{
+    padding-bottom: 50px;
+}
+.work p{
+    font-size:20px;
+    margin-top:25px;
+    margin-left: 35px;
+}
+.work #title{
+    text-align: center;
+}
+.work ul{
+    margin-left:10px;
+}
+.work ul li{
+    padding-left: 20px;
+}
+#work_cards{
+    margin-left:35px;
+    margin-top:20px;
+    margin-bottom: 60px;
+}
+.artist_info #profile_picture{
+    margin-left: 35px;
+    margin-top:25px;
+}
+#work_navigation li a:hover{
+    color:orange;
+}
+#pro_pic{
+    text-align: center;
+}
+.artist_info{
+    padding-bottom: 30px;
+}
+.card-body{
+    background-color:black;
+    height: 80px;
+    color: white;
+    opacity: 1.1;
+}
+@media (min-width:320px) {
+    #info1{
+        margin-left: 160px;
+    }
+    #artist_name{
+        margin-left: 120px;
+    }
+    span{
+        margin-left: 60px;
+    }
+    #work_cards{
+        margin-left: 80px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    #card2{
+        margin-top: 15px;
+    }
+    #card3{
+        margin-top: 15px;
+    }
+    #card4{
+        margin-top: 15px;
+    }
+  }
+@media (min-width:600px) {
+    #info1{
+        margin-left: 100px;
+    }
+    #artist_name{
+        margin-left: 300px;
+    }
+    span{
+        margin-left: 130px;
+    }
+    #work_cards{
+        margin-left: 250px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #card2{
+        margin-top: 15px;
+    }
+    #card3{
+        margin-top: 15px;
+    }
+    #card4{
+        margin-top: 15px;
+    }
+  }
+@media (min-width:800px) {
+    #info1{
+        margin-left: 400px;
+    }
+
+  }
+@media (min-width:900px) {
+    #info1{
+        margin-left: 450px;
+    }
+
+  }
+@media (min-width:1000px) {
+    #info1{
+        margin-left: 0px;
+    }
+        #artist_name{
+            margin-left: 0px;
+        }
+        span{
+            margin-left: 0px;
+        }
+        #work_cards{
+            margin-left: 35px;
+            margin-bottom: 0px;
+            margin-top: 20px;
+        }
+        #card2{
+            margin-top: 0px;
+        }
+        #card3{
+            margin-top: 0px;
+        }
+        #card4{
+            margin-top: 0px;
+        }
+    }
+1
